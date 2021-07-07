@@ -1,0 +1,15 @@
+current directory: /Users/s.yamamoto/オリジナルアプリ/travel_diary/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.7.5/ext/bootsnap
+/Users/s.yamamoto/.rbenv/versions/2.6.5/bin/ruby -I /Users/s.yamamoto/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20210707-33477-1l4rvd5.rb extconf.rb
+creating Makefile
+
+current directory: /Users/s.yamamoto/オリジナルアプリ/travel_diary/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.7.5/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/s.yamamoto/オリジナルアプリ/travel_diary/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.7.5/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/s.yamamoto/オリジナルアプリ/travel_diary/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.7.5/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20210707-33477-1urhn5s/bootsnap
