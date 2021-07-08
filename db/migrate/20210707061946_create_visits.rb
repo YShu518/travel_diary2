@@ -6,6 +6,7 @@ class CreateVisits < ActiveRecord::Migration[6.0]
       t.integer :category_id, null:false
       t.integer :area_id, null:false
       t.integer :month_id, null:false
+      t.references :user, null:false, foreign_key: true
       t.timestamps
     end
   end
