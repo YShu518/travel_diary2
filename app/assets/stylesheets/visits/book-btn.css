@@ -1,0 +1,22 @@
+.book-btn {
+  width: 120px;
+  background: khaki;
+  text-align: center;
+  border-radius: 4%;
+  bottom: 32px;
+  right: 32px;
+  position: fixed;
+  padding: 15px;
+}
+
+.book-btn-text {
+  color: #000;
+  display: block;
+  font-size: 18px;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.book-btn-icon {
+  width: 60%;
+}

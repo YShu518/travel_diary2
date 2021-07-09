@@ -1,4 +1,35 @@
 <%= render "shared/header" %>
 
-<h1>Visits#index</h1>
-<p>Find me in app/views/visits/index.html.erb</p>
+<main>
+  <div class=sub-title>旅の思い出を残そう</div>
+
+  <ul class=slider>
+    <li><%= image_tag "spring-sample.jpg", alt:"春", class:"sample-picture" %></li>
+    <li><%= image_tag "summer-sample.jpg", alt:"夏", class:"sample-picture" %></li>
+    <li><%= image_tag "automn-sample.jpg", alt:"秋", class:"sample-picture" %></li>
+    <li><%= image_tag "winter-sample.jpg", alt:"冬", class:"sample-picture" %></li>
+  </ul>
+
+  <script>
+    $(document).ready(function(){
+      console.log("チェック");
+      $('.slider').slick({
+        autoplay: true,
+        autoplaySpeed: 5000,
+      });
+    });
+  </script>
+
+
+  <div class="latest-visits">
+    <h2 class="title">新着旅先情報</h2>
+  </div>
+</main>
+
+
+<%= link_to("#", class: 'book-btn') do %>
+  <span class='book-btn-text'>記録する</span>
+  <%= image_tag 'book.png' , size: '185x50' ,class: "book-btn-icon" %>
+<% end %>
+
+<%= render "shared/footer" %>
